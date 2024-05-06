@@ -20,7 +20,7 @@ const weapons = {
 }; // Object containing all weapon URLs
 
 // The /api/weapons endpoint
-router.get('/', async (req, res) => {
+router.get('/weapons', async (req, res) => {
     try {
         const weaponData = await getWeapons(weapons.SNS); // Get the weapon data for swords and shields
         res.status(200).json(weaponData); // Respond with the weapon data

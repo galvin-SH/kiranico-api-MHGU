@@ -1,13 +1,3 @@
-// .replace(/[^\x20-\x7E]/gim, '') // Remove non-ASCII characters
-
-// #list > div > table > tbody > tr:nth-child(1) > td > div:nth-child(1) > a
-// '#list div table tbody tr td > div a'
-// #app > div.container > div:nth-child(2) > div.col-lg-10.px-0 > div:nth-child(4) > div > div:nth-child(5) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > div
-// table tbody tr td:first-child div
-// <div>Petrified Blade LV1</div>
-// <td class="vertical-align"><div>Petrified Blade LV1</div></td>
-// document.querySelector("#app > div.container > div:nth-child(2) > div.col-lg-10.px-0 > div:nth-child(4) > div > div:nth-child(5) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(1) > div").innerText
-
 const axios = require('axios');
 const cheerio = require('cheerio');
 
